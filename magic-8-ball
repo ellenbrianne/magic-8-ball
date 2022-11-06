@@ -1,0 +1,32 @@
+var userName = 'Ellen';
+
+if (userName === 'Ellen') {
+    console.log('Hello, Ellen!')
+} else if (userName === ' ') {
+    console.log('Hello!')
+};
+
+var userQuestion = 'Will I become a software engineer?';
+console.log(`${userName} asks, ${userQuestion}`);
+
+var randomNumber = Math.floor(Math.random() * 8);
+
+if (randomNumber === 0) {
+    var eightBall = 'It is certain.'
+} else if (randomNumber === 1) {
+    var eightBall = 'It is decidedly so.' 
+} else if (randomNumber === 2) {
+   var eightBall = 'Reply hazy -- try again.'
+} else if (randomNumber === 3) {
+    var eightBall = 'Cannot predict at this time.'
+} else if (randomNumber === 4) {
+    var eightBall = 'Do not count on it.'
+} else if (randomNumber === 5) {
+    var eightBall = 'All signs point to no.'
+} else if (randomNumber === 6) {
+    var eightBall = 'Outlook not so good.'
+} else if (randomNumber === 7) {
+    var eightBall = 'All signs point to yes.'
+};
+
+console.log(eightBall); 
